@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: yellowgreen;
+}
+
+footer {
+    margin-top: auto;
+    background-color: darkolivegreen;
+}
+
+.container {
+    flex-grow: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: whitesmoke;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Ajuste o valor para obter o espaçamento desejado */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: blue;
+}
+
+header .container img {
+    border-radius: 50%;
+    width: 100px; /* Defina o valor desejado para a largura */
+    height: auto; /* A altura será ajustada automaticamente proporcionalmente à largura */
+}
+
+body .container img {
+    border-radius: 50%;
+    width: 100px; /* Defina o valor desejado para a largura */
+    height: auto; /* A altura será ajustada automaticamente proporcionalmente à largura */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.product-item {
+    text-align: center;
+}
